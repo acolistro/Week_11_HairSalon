@@ -17,7 +17,7 @@ _A website where a hair salon (user) can add and edit and track clients based on
 |User can view all stylists|Selects "view all"|All stylists in the stylist table of the database are printed to the page|
 |User can view all clients of each stylist|Clicks "Karen Smith"|All clients that serve "Karen Smith" are displayed.|
 |User can edit added stylists|"Karen Smith" --> "David Bowie"|"Karen Smith" is updated to "David Bowie" in the stylist table|
-|User can delete stylists|User selects "Delete" from options on "David Bowie" Details page|"David Bowie" is removed from the stylists table.|
+|User can delete stylists|User selects "Delete" from options on "David Bowie" Details page|"David Bowie" is removed from the stylists table, as well as all their clients.|
 |User can add a new client and specify which stylist it belongs to, as well as other client details.|"Beyonce Knowles", "David Bowie"|"Beyonce Knowles" is added to the clients table, with the idea of the specified stylist in a stylist column.|
 |User can view all clients|Selects "view all"|User can see all clients listed in the clients table.|
 |User can edit clients|"Beyonce Knowles" --> "Michele Obama"|"Beyonce Knowles" is updated to "Michele Obama" in the restaraunt table.|
