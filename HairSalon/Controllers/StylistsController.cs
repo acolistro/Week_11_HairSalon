@@ -57,8 +57,8 @@ namespace HairSalon.Controllers
 
     public ActionResult Delete(int id)
     {
-      var thisCuisine = _db.Cuisines.FirstOrDefault(cuisines => cuisines.CuisineId == id);
-      return View(thisCuisine);
+      var thisStylist = _db.Stylists.FirstOrDefault(stylists => stylists.StylistId == id);
+      return View(thisStylist);
     }
 
     [HttpPost, ActionName("Delete")]
