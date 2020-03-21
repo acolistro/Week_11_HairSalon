@@ -1,0 +1,97 @@
+
+body {
+  text-align: center;
+  font-family: 'Bellota', cursive;
+}
+
+body::after {
+  content: "";
+  background: url("../img/11-26-1958_Hair_salon_Bob_Bonte.jpg");
+  background-repeat: no-repeat;
+  background-position: fixed;
+  background-size: cover;
+  opacity: 0.8;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;  
+}
+
+img {
+  opacity: .5;
+}
+
+a {
+  font-size: 25px;
+  padding: 8px;
+  color: rgb(66, 39, 39);
+}
+.jumbotron {
+  text-align: center;
+  margin-top: 15px;
+  background: rgba(0, 0, 0, .1);
+  color: #fff;
+}
+
+.splash-page-header {
+  font-family: 'Bellota', cursive;
+  color: rgb(184, 11, 118);
+  text-shadow: -1px 1px 0 #000,
+  1px 1px 0 #000,
+ 1px -1px 0 #000,
+-1px -1px 0 #000;
+}
+
+ul {
+  text-align: center;
+  list-style-position: inside;
+}
+
+div#footer {
+  position:fixed;
+  bottom:0px;
+  left:0px;
+  width:100%;
+  color:#CCC;
+  background:#333;
+  padding:8px;
+}
+
+.navbar-brand {
+  font-family: 'Bellota', cursive;
+  color: rgb(231, 188, 79);
+  font-size: 25px;
+}
+
+
+.btn button{
+  color: white;
+}
+
+.button-parent{
+  text-align: center;
+}
+
+.button-group {
+  position: fixed;
+  bottom: 100px;
+  /* left: 50%; */
+  /* transform: translateX(-50%); */
+  text-align: center;
+  margin-left: 16vw;
+  margin-right: 16vw;
+  border-style: none;
+  border-width: 15px;
+  /* display: inline-block; */
+}
+
+#search {
+  margin-top: auto;
+  margin-left: auto;
+  text-align: center;
+  margin-left: 16vw;
+  margin-right: 16vw;
+  display: inline-block;
+}
