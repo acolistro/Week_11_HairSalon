@@ -1,4 +1,4 @@
-# _Best Restaurants_
+# _Eau Claire's Salon_
 
 #### _ASP.NET MVC Week 11 Independent Project for Epicodus_, _Mar. 20 2020_
 
