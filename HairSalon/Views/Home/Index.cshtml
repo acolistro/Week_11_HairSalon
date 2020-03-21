@@ -1,0 +1,26 @@
+@{
+  Layout = "_Layout";
+}
+
+<div class="jumbotron">
+  <h1 class=splash-page-header>Welcome to the Eau Claire's Salon Tracker!</h1>
+  <h2>A Tool to Help You Manage Your Professional Business!.</h2>
+</div>
+
+
+<div class="button-parent">
+  <div class="button-group">
+  
+  <div class="form-group w-50" id="search">
+  @using (Html.BeginForm("Search","Stylists")) {
+  <input type="text" name="search" class="form-control form-control-lg"/>
+  <br>
+  <input type="submit" value="Search Stylists" class="btn btn-success my-2 my-sm-0">
+  }
+</div>
+    <button class="btn btn-warning">@Html.ActionLink("See all Stylists", "Index", "Stylists")</button>
+    <button class="btn btn-warning">@Html.ActionLink("Add a new Stylist", "Create", "Stylists")</button>
+    <button class="btn btn-warning">@Html.ActionLink("See all Clients", "Index", "Clients")</button>
+    <button class="btn btn-warning">@Html.ActionLink("Add a new Client", "Create", "Clients")</button>
+  </div>
+</div>
