@@ -14,12 +14,20 @@
           <div class="form-group">
             @Html.LabelFor(model => model.Name)
             @Html.TextBoxFor(model => model.Name, new{ @class="form-control"})
+          </div>
+          <div class="form-group">  
             @Html.LabelFor(model => model.Specialty)
             @Html.TextBoxFor(model => model.Specialty, new{ @class="form-control"})
+          </div> 
+          <div class="form-control"> 
             @Html.LabelFor(model => model.HireDate)
             @Html.TextBoxFor(model => model.HireDate, new{ @class="form-control"})
+          </div> 
+          <div class="form-control">  
             @Html.LabelFor(model => model.StationAssignment)
             @Html.TextBoxFor(model => model.StationAssignment, new{ @class="form-control"})
+          </div>
+          <div class="form-control">   
             @Html.LabelFor(model => model.Rent)
             @Html.TextBoxFor(model => model.Rent, new{ @class="form-control"})
           </div>  
