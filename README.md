@@ -72,6 +72,10 @@ CREATE DATABASE `hair_salon`;
 CREATE TABLE `stylists` (
   `stylistid` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(255) DEFAULT NULL,
+  `specialty` varchar(255) DEFAULT NULL,
+  `hiredate` varchar(255) DEFAULT NULL,
+  `stationassignment` int(11) NOT NULL,
+  `rent` int(11) NOT NULL,
   PRIMARY KEY (`stylistid`));
 ```
 * Create a table in hair_salon for storing client data:
