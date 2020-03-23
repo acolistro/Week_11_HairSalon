@@ -1,16 +1,25 @@
 @{
   Layout = "_Layout";
 }
-//Details views not showing
+
 @using HairSalon.Models
 @model HairSalon.Models.Stylist
 <div class="row">
   <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
     <div class="card bg-info my-5">
       <div class="card-body">
-        <h2>Clients of </h2>
         <h2>@Html.DisplayFor(model => model.Name)</h2>
-        <hr />
+        <hr/>
+        <h4>Specialty</h4>
+        <p>@Html.DisplayFor(model => model.Specialty)</p>
+        <h4>Hire Date</h4>
+        <p>@Html.DisplayFor(model => model.HireDate)</p>
+        <h4>Chair Assignment</h4>
+        <p>@Html.DisplayFor(model => model.StationAssignment)</p>
+        <h4>Current Rent</h4>
+        <p>@Html.DisplayFor(model => model.Rent)</p>
+        <hr/>
+        <h3>Clients:</h3>
 
         @if (Model.Clients.Count == 0)
         {
