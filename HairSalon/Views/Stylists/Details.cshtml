@@ -8,13 +8,13 @@
   <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
     <div class="card bg-info my-5">
       <div class="card-body">
-        <h2>Clients with </h2>
+        <h2>Clients of </h2>
         <h2>@Html.DisplayFor(model => model.Name)</h2>
         <hr />
 
         @if (Model.Clients.Count == 0)
         {
-          <p>No Clients of this Stylist.</p>
+          <p>This Stylist currently has no Clients.</p>
         }
 
         @foreach (Client client in @Model.Clients)
