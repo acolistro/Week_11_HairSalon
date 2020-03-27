@@ -65,9 +65,9 @@ mysql -uroot -p<your_password_here>
 ```
 * Once in MySQL, create a database for storing project data:
 ```sh
-CREATE DATABASE `hair_salon`;
+CREATE DATABASE `alyssa_colistro`;
 ```
-* Create a table in hair_salon for storing stylist data:
+* Create a table in alyssa_colistro for storing stylist data:
 ```sh
 CREATE TABLE `stylists` (
   `stylistid` int(11) NOT NULL AUTO_INCREMENT,
